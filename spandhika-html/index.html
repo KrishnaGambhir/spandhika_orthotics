@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saarthi by Spandhika Orthotics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Montserrat', sans-serif; 
+            font-weight: 400; 
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%); 
+            color: #fff; 
+            line-height: 1.6; 
+            min-height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        header { text-align: center; padding: 2rem 1rem; }
+        .logo { 
+            width: 150px; 
+            height: auto; 
+            margin-bottom: 1rem; 
+        }
+        .company-title { 
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            font-weight: 800; 
+            font-size: 4.5rem; 
+            color: #a8b4d8; 
+            width: 50%; 
+            margin: 0 auto 1rem; 
+            letter-spacing: -1px;
+            text-align: center;
+        }
+        .hero { 
+            flex: 1; 
+            text-align: center; 
+            padding: 4rem 2rem; 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        .product-name { 
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; 
+            font-size: 3rem; 
+            color: #00d4ff; 
+            margin: 1rem 0; 
+        }
+        .product-image { 
+            max-width: 100%; 
+            height: 300px; 
+            object-fit: cover; 
+            border-radius: 20px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            margin: 2rem auto;
+            display: block;
+        }
+        .description { 
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 1.1rem; 
+            margin-bottom: 2rem; 
+            opacity: 0.95; 
+        }
+        .features { 
+            list-style: none; 
+            max-width: 600px; 
+            margin: 2rem auto; 
+        }
+        .features li { 
+            padding: 1rem; 
+            background: rgba(255,255,255,0.1); 
+            margin: 0.5rem 0; 
+            border-radius: 10px; 
+            backdrop-filter: blur(10px);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+        footer { 
+            text-align: center; 
+            padding: 2rem; 
+            background: rgba(0,0,0,0.3); 
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+        .contact { font-size: 1rem; }
+        @media (max-width: 768px) { 
+            .company-title { font-size: 2.8rem; width: 80%; }
+            .product-name { font-size: 2rem; } 
+            .logo { width: 120px; }
+            .product-image { height: 250px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.jpeg" alt="Spandhika Orthotics Logo" class="logo">
+        <div class="company-title">Spandhika Orthotics</div>
+    </header>
+    <section class="hero">
+        <h1 class="product-name">Saarthi</h1>
+        <img src="foot-img.png" alt="Saarthi 3D Model" class="product-image">
+        <p class="description">
+            Saarthi is a smart orthotic insole that acts as a portable gait lab inside your shoe. 
+            It measures foot pressure distribution, clinical angles, and gait analysis in real-time, 
+            bridging the gap between patients and doctors for foot deformities, diabetic care, 
+            mobility issues, and rehabilitation.
+        </p>
+        <ul class="features">
+            <li>Real-time foot pressure mapping</li>
+            <li>Gait patterns and joint angle tracking</li>
+            <li>Mobile app integration for data insights</li>
+            <li>Supports diabetes monitoring and rehab</li>
+        </ul>
+    </section>
+    <footer>
+        <div class="contact">
+            Contact: info@spandhikaorthotics.in | +91-9350-026954<br>
+            Hamirpur, India | Founded 2025
+        </div>
+    </footer>
+</body>
+</html>
